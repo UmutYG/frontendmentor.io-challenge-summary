@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p {
+    font-size: 18px;
+    color:  hsl(241, 100%, 89%);
+    text-align: center;
+    padding-left: 8px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(221, 100%, 96%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.cart {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.cart__result {
+    width: 325px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 48px;
+    border-radius: 16px;
+    background-image: linear-gradient(hsla(252, 100%, 67%),  hsl(241, 81%, 54%));
+}
+
+
+
+
+
+.cart__circle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 1rem;
+}
+
+.cart__summary {
+    width: 325px;
+    background-color: #fff;
+    border-radius: 16px;
+    margin-left: -1rem;
+    z-index: -1;
+    padding: 30px 30px 30px 50px;
+    box-shadow: 0 4px 8px 0px rgba(0,0,0,0.2);
+    
+}
+
+.summary-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    border-radius: 8px;
+    margin: 1rem 0;
+
+}
+
+.summary-item__left {
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+
+.summary-item--reaction {
+    background-color: hsla(0, 100%, 67%, 0.05);
+}
+
+.summary-item--memory {
+    background-color: hsla(39, 100%, 56%, 0.05);
+}
+
+.summary-item--verbal {
+    background-color: hsla(166, 100%, 37%, 0.05);
+}
+
+.summary-item--visual {
+    background-color: hsla(234, 85%, 45%, 0.05);
+}
+
+.text--reaction {
+    color: hsla(0, 100%, 67%, 1);;
+}
+
+.text--memory {
+    color: hsla(39, 100%, 56%, 1);
+    
+}
+
+.text--verbal {
+    color: hsla(166, 100%, 37%, 1);
+    
+}
+
+.text--visual {
+    color: hsla(234, 85%, 45%, 1);
+    
+}
+
+button {
+    width: 100%;
+    padding: 12px 8px;
+    background-color: hsl(224, 30%, 27%);
+    color: #fff;
+    border-radius: 32px;
+}
+
+
+
+.bold {
+    font-weight: bold;
+    color: inherit;
+}
+
+
+
+.text-white {
+    color: #fff;
+    font-weight: bold;
+}
+
+.cart__result-description {
+    font-size: 14px;
+    max-width: 80%;
+}
+
+.score {
+    font-size: 38px;
+}
+
+.title {
+    margin: 1rem 0;
+
+}
+
+.summary-item {
+    display: flex;
+}
