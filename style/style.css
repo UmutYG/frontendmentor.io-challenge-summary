@@ -29,7 +29,12 @@ body {
     align-items: center;
     padding: 3.8rem 5.5rem 5.5rem 5.5rem;
     border-radius: 3.2rem;
-    background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
+    background: linear-gradient(
+        180deg,
+        #7755ff 0%,
+        #6943ff 0.01%,
+        #2f2ce9 100%
+    );
 }
 
 .cart__summary {
@@ -116,6 +121,13 @@ body {
 .summary-result-box {
     display: flex;
     gap: 0.8rem;
+}
+
+.summary-dash,
+.summary-max-value {
+    color: #303b59;
+    opacity: 0.5;
+    font-weight: 700;
 }
 
 .summary-value {

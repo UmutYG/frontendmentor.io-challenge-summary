@@ -4,7 +4,7 @@ const shapeContent = (data) => {
     let content = `
     <div class="summary-item summary-item--${data.category.toLowerCase()}">
     <div class="summary-item__left">
-       <img src=${data.icon} alt=${data.category} icon />
+       <img src=${data.icon} alt=${data.category + ' icon'} />
         <p class="text--${data.category.toLowerCase()}">${data.category}</p>
     </div>
     <div class="summary-result-box">
