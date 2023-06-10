@@ -9,11 +9,9 @@ html {
 }
 
 body {
-    width: 100vw;
-    height: 100vh;
-    background-color: hsl(221, 100%, 96%);
     font-family: 'Hanken Grotesk', sans-serif;
     color: #cac9ff;
+    background-color: #fff;
 }
 
 .cart {
