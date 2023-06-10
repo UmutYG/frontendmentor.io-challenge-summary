@@ -1,0 +1,50 @@
+.summary-item--reaction {
+    background: linear-gradient(
+            0deg,
+            rgba(255, 255, 255, 0.95),
+            rgba(255, 255, 255, 0.95)
+        ),
+        #ff5555;
+}
+
+.summary-item--memory {
+    background: linear-gradient(
+            0deg,
+            rgba(255, 255, 255, 0.95),
+            rgba(255, 255, 255, 0.95)
+        ),
+        #ffb21e;
+}
+
+.summary-item--verbal {
+    background: linear-gradient(
+            0deg,
+            rgba(255, 255, 255, 0.95),
+            rgba(255, 255, 255, 0.95)
+        ),
+        #00bb8f;
+}
+.summary-item--visual {
+    background: linear-gradient(
+            0deg,
+            rgba(255, 255, 255, 0.95),
+            rgba(255, 255, 255, 0.95)
+        ),
+        #1125d6;
+}
+
+.text--reaction {
+    color: #ff5555;
+}
+
+.text--memory {
+    color: #ffb21e;
+}
+
+.text--verbal {
+    color: #00bb8f;
+}
+
+.text--visual {
+    color: #1125d6;
+}

@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(221, 100%, 96%);
+    font-family: 'Hanken Grotesk', sans-serif;
+    color: #cac9ff;
+}
+
+.cart {
+    max-width: 73.6rem;
+    margin: 28.4rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 73.6rem;
+    margin-bottom: 50px;
+}
+
+.cart__result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3.8rem 5.5rem 5.5rem 5.5rem;
+    border-radius: 3.2rem;
+    background-image: linear-gradient(hsla(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+.cart__summary {
+    background-color: #fff;
+    border-radius: 3.2rem;
+    margin-left: -4rem;
+    z-index: -1;
+    padding: 4rem 4rem 4rem 8rem;
+    box-shadow: 0px 30px 60px rgba(61, 108, 236, 0.15);
+}
+
+.cart__result__title {
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-bottom: 3.5rem;
+}
+
+.cart__circle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(
+        hsla(256, 72%, 46%, 1),
+        hsla(241, 72%, 46%, 0)
+    );
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    margin-bottom: 2.8rem;
+}
+
+.score {
+    font-size: 7.2rem;
+    font-weight: 800;
+    color: #fff;
+}
+
+.score__max {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.heading-secondary {
+    font-size: 3.2rem;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 1.4rem;
+}
+
+.cart__result-description {
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.cart__summary h2 {
+    font-size: 2.4rem;
+    color: #303b59;
+    font-weight: 700;
+    margin-bottom: 2.8rem;
+}
+
+.summary-items {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    font-size: 1.8rem;
+}
+
+.summary-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.6rem;
+    border-radius: 12px;
+}
+
+.summary-item__left {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.summary-result-box {
+    display: flex;
+    gap: 0.8rem;
+}
+
+.summary-value {
+    font-weight: 700;
+    color: #303b59;
+}
+
+.summary-item:last-child {
+    margin-bottom: 4.1rem;
+}
+
+.button {
+    width: 100%;
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 1.6rem;
+    background-color: hsl(224, 30%, 27%);
+    color: #fff;
+    border-radius: 32px;
+}
